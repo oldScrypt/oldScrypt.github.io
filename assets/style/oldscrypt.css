@@ -1,0 +1,21 @@
+body{
+   background-color: #b87333;
+   font-family:monospace;
+}
+.header{text-align: center;
+  font-size: 36;
+  margin:3%;}
+
+#grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-columns: 15%;
+    gap: .5rem;
+    justify-content: space-around; 
+    justify-items: stretch;
+    padding:2%;
+  }
+#code{
+    
+}
+
